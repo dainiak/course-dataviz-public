@@ -1,0 +1,33 @@
+ornitographie.jpg
+    Xavi Bou
+    http://www.xavibou.com/index.php/project/ornitographies/
+
+scientific-vis-1.jpg
+    https://upload.wikimedia.org/wikipedia/commons/5/54/Rayleigh-Taylor_instability.jpg
+    https://en.wikipedia.org/wiki/Scientific_visualization#/media/File:Rayleigh-Taylor_instability.jpg
+
+scientific-vis-2.jpg
+    Caffeine molecule
+    http://viz.aset.psu.edu/jack/java3d/slides/mt0011.htm
+
+statistical-vis-diet-trends.png
+    https://flowingdata.com/2016/04/28/change-in-the-british-diet-since-1974/
+
+statistical-vis-phillips-curve.png
+    https://en.wikipedia.org/wiki/Data_visualization#/media/File:U.S._Phillips_Curve_2000_to_2013.png
+
+business-analytics-1.png
+    https://blogs.office.com/2015/08/18/visualize-statistics-with-histogram-pareto-and-box-and-whisker-charts/
+
+neuvis-1.jpg
+    https://www.heifer.org/join-the-conversation/magazine/2013/fall/the-don-of-disco-data.html
+    Hans Rosling makes a presentation
+
+journalism-1-sagrada.jpg
+    http://visual.ly/barcelonas-natural-wonder
+    Fernando G. Baptista
+
+data-art-four-seasons.png
+    Nicholas Rougeux
+    https://www.c82.net/offthestaff/
+    https://flowingdata.com/2016/10/05/classical-music-visualized/

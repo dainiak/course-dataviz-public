@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../reveal/css/reveal.css">
+    <link rel="stylesheet" href="../reveal-custom/css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+    <link rel="stylesheet" href="../reveal-custom/css/extras.css">
+</head>
+
+<body>
+<div class="reveal"><div class="slides">
+<section data-transition="zoom">
+    <h1>Визуализация данных</h1>
+    <h2>Как всё начиналось <span class="fragment">и развивалось</span></h2>
+</section>
+
+<section>
+    <ul>
+        <li class="fragment">до 1600 г. — зачатки</li>
+        <li class="fragment">1600—1699 гг. — измерения и теория</li>
+        <li class="fragment">1700—1799 гг. — новые графические формы</li>
+        <li class="fragment">1800—1850 гг. — зарождение современной инфографики</li>
+        <li class="fragment">1850—1900 гг. — «Золотой век» статистической визуализации</li>
+        <li class="fragment">1900—1950 гг. — «времена застоя»</li>
+        <li class="fragment">1950—1975 гг. — возрождение</li>
+        <li class="fragment">1975—н.в. — интерактивность, большие объёмы</li>
+    </ul>
+</section>
+
+<section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/oldest-table-2600bce.jpg" >
+                <figcaption>Таблицы (2.5—1.5 тыс. лет до н.э.)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/accounting-table-1300bce.jpg">
+                <figcaption>Таблицы, 2.5—1.5 тыс. лет до н.э.</figcaption>
+            </figure>
+        </div>
+    </section>
+</section>
+
+<section>
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/macrobius-celestial-bodies.png" alt="">
+            <figcaption>A. T. Macrobius, X век н.э.</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section>
+
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/scheiner-sunspots.png">
+            <figcaption>Christopher Scheiner, 1630</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section>
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/distance-rome-to-toledo.png">
+            <figcaption>Michael Florent van Langren, 1644</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section>
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/leibniz-logical-diagram.png">
+            <figcaption>Gottfried Wilhelm Leibniz (1646—1716)</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section>
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/priestley-biographies-chart.png" alt="">
+            <figcaption>Joseph Priestley, 1765</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section>
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/harris-color-system.jpg">
+            <figcaption>Moses Harris (1730—1788)</figcaption>
+        </figure>
+    </div>
+</section>
+
+<section>
+    <div class="layout-fig-and-cap">
+        <figure>
+            <img src="img/mayer-color-triangle.jpg">
+            <figcaption>Tobias Mayer (1723—1762)</figcaption>
+        </figure>
+    </div>
+</section>
+
+
+<section>
+    <section>
+        <h2>Визуализация графов</h2>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/graphs/saxons.jpg">
+                <figcaption>Генеалогическое дерево династии Саксонов (XII век)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/graphs/virtuestree.jpg">
+                <figcaption>Дерево добродетелей (XIV век)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <figure> <img src="img/graphs/sinstree.jpg">
+                <figcaption>Дерево грехов (XIV век)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/graphs/k12.jpg">
+                <figcaption>Логический квадрат <br>— диаграмма отношений между силлогизмами.<br>Juan de Celaya
+                    (1490—1558)
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/graphs/knighttour.jpg">
+                <figcaption>
+                    Иллюстрация А.-Т. Вандермонда (1771 г.) к задаче об обходе шахматной доски конём.
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/graphs/icosian.jpg">
+                <figcaption>
+                    Иллюстрация У. Гамильтона (1857) к задаче об обходе икосаэдра.
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <p>Помеченные деревья из статьи Кэли (1857)</p>
+            <figure> <img src="img/graphs/cayley.jpg">
+                <figcaption>A. Cayley. On the Theory of the Analytical Forms Called Trees. Philosophical Magazine, 4(13):172–176,
+                    1857.</figcaption></figure>
+        </div>
+    </section>
+    <section>
+        <!--<h2>Визуализация с древних времён</h2>-->
+        <div class="layout-fig-and-cap">
+            <figure>
+                <img src="img/graphs/molecules.jpg">
+                <figcaption style="padding-left: 20px;">Графы молекул из статьи А.К. Брауна (1864).</figcaption>
+            </figure>
+        </div>
+    </section>
+</section>
+
+
+<section>
+    <section>
+        <div class="layout-two-col">
+            <figure>
+                <img src="img/playfair-atlas.jpg">
+                <figcaption>Commercial and Political Atlas (1801)</figcaption>
+            </figure>
+            <figure>
+                <img src="img/people/William-Playfair.jpg">
+                <figcaption>William Playfair<br>(1759—1823)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure><img src="img/playfair-atlas-piechart.jpg" alt=""></figure>
+        </div>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure><img src="img/playfair-atlas-barchart.jpg" alt=""></figure>
+        </div>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure><img src="img/playfair-atlas-time-series.png" alt=""></figure>
+        </div>
+    </section>
+</section>
+
+<section>
+    <section>
+        <div class="layout-two-col">
+            <figure>
+                <img src="img/people/John-Snow.jpg">
+                <figcaption>John Snow<br>(1813—1858)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/snow-cholera-map.jpg">
+                <figcaption>Карта распространения <br> холеры в Лондоне (1854)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure><img src="img/snow-cholera-map-zoomed.png" alt=""></figure>
+        </div>
+    </section>
+</section>
+
+<section>
+    <section>
+        <div class="layout-two-col">
+
+            <figure>
+                <img src="img/people/Florence-Nightingale.png">
+                <figcaption>Florence Nightingale<br>(1820—1910)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/nightingale-mortality.jpg">
+                <figcaption>Смертность в госпиталях (1858)</figcaption>
+                <!-- Крымская война 16 October 1853 – 30 March 1856 -->
+            </figure>
+        </div>
+    </section>
+    <section>
+        <div class="layout-fig-and-cap">
+            <figure><img src="img/nightingale-rose-diagram.png" alt=""></figure>
+        </div>
+    </section>
+</section>
+
+<section>
+    <img src="img/minard-napoleon-in-russia.png" alt="" >
+    <figcaption>Charles Joseph Minard, 1869</figcaption>
+</section>
+
+
+<section>
+    <div class="layout-two-col">
+        <figure>
+            <img src="img/people/Emile-Cheysson.jpg" style="width: 100%; margin: 20px;">
+            <figcaption>J.J.E. Cheysson<br>(1836—1910)</figcaption> <!-- Жан Жак Эмиль-->
+        </figure>
+
+        <figure>
+            <img src="img/cheysson-france-anamorphic-map.png">
+            <figcaption>Время в пути от Парижа до городов Франции (1888)</figcaption>
+        </figure>
+    </div>
+</section>
+
+</div></div>
+
+<script src="../reveal/js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        slideNumber: true,
+        width: "100%",
+        height: "100%",
+        margin: 0,
+        minScale: 1,
+        maxScale: 1,
+        history: true,
+        transition: 'slide',
+        controls: false,
+        menu: {
+            openSlideNumber: true,
+            openButton: false,
+            themes: false,
+            // themesPath: '../reveal/css/theme/',
+            transitions: true,
+            titleSelector: 'h1,h2,h3,h4,h5,h6,figcaption'
+        },
+        math: {
+            svgMathEnabled: true
+        },
+        inking: {
+            mathRenderer: 'MathJax',
+            mathShadow: 'false',
+            mathColor: 'rgb(0,255,0)',
+            mathDisplayStyle: true,
+            //inkingCanvasContent: predefinedSlideContent,
+            mathMacros: [['f1', '\\sum_t^u78'], ['f2', '\\left(\\int_{x=5}^8\\sin x\\mathrm{dx}\\right)']]
+        },
+        highlighting: {
+            editorInPlace: true
+        },
+        zooming: {
+            explicitZoomables: false,
+        },
+        dependencies: [
+            {
+                src: '../reveal-custom/plugins/menu/menu.js'
+            },
+            {
+                src: '../reveal-custom/plugins/external/external.js',
+                condition: function () {
+                    return !!document.querySelector('[data-external],[data-external-replace]');
+                }
+            },
+            {
+                src: '../reveal-custom/plugins/math-mod/math.js',
+                async: false
+            }
+        ]
+    });
+</script>
+</body>
+</html>

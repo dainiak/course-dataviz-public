@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../reveal/css/reveal.css">
+    <link rel="stylesheet" href="../reveal-custom/css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+    <link rel="stylesheet" href="../reveal-custom/css/extras.css">
+</head>
+<body>
+<div class="reveal"><div class="slides">
+    <section title="Титульный слайд" data-external="sect-course-title.html"></section>
+    <section title="Квартет Энскомба" data-external="sect-intro-anscombe.html"></section>
+    <section title="Определения" data-external="sect-intro-definitions.html"></section>
+    <section title="Виды визуализации" data-external="sect-intro-kinds-of-dataviz.html"></section>
+    <section title="Chartjunk debate" data-external="sect-intro-chartjunk-debate.html"></section>
+    <section title="Data art" data-external="sect-intro-data-art.html"></section>
+    <section title="Цитаты из классиков" data-external="sect-intro-quotes.html"></section>
+    <section title="Ссылки" data-external="sect-intro-references.html"></section>
+</div></div>
+
+<script src="../reveal/js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        slideNumber: true,
+        width: "100%",
+        height: "100%",
+        margin: 0,
+        minScale: 1,
+        maxScale: 1,
+        history: true,
+        transition: 'slide',
+        controls: false,
+        menu: {
+            openSlideNumber: true,
+            openButton: false,
+            themes: false,
+            // themesPath: '../reveal/css/theme/',
+            transitions: true,
+            titleSelector: 'h1,h2,h3,h4,h5,h6,figcaption'
+        },
+        math: {
+            svgMathEnabled: true
+        },
+        inking: {
+            mathRenderer: 'MathJax',
+            mathShadow: 'false',
+            mathColor: 'rgb(0,255,0)',
+            mathDisplayStyle: true,
+            //inkingCanvasContent: predefinedSlideContent,
+            mathMacros: [['f1', '\\sum_t^u78'], ['f2', '\\left(\\int_{x=5}^8\\sin x\\mathrm{dx}\\right)']]
+        },
+        highlighting: {
+            editorInPlace: true
+        },
+        zooming: {
+            explicitZoomables: false,
+        },
+        dependencies: [
+            {
+                src: '../reveal-custom/plugins/menu/menu.js'
+            },
+            {
+                src: '../reveal-custom/plugins/external/external.js',
+                condition: function () {
+                    return !!document.querySelector('[data-external],[data-external-replace]');
+                }
+            },
+            {
+                src: '../reveal-custom/plugins/math-mod/math.js',
+                async: false
+            },
+            {
+                src: '../reveal-custom/plugins/zoom-js-mod/zoom.js'
+            }
+        ]
+    });
+</script>
+</body>
+</html>

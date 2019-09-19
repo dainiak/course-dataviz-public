@@ -144,6 +144,10 @@
         height: auto;
       }
 
+      iframe {
+        height: 80vh;
+      }
+
       figcaption {
         text-align: center;
         font-size: round($mainFontSize * 0.7);

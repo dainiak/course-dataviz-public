@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../reveal/css/reveal.css">
+    <link rel="stylesheet" href="../reveal-custom/css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+    <link rel="stylesheet" href="../reveal-custom/css/extras.css">
+</head>
+
+<body>
+<div class="reveal"><div class="slides">
+<section data-menu-title="Gestalt-принципы" data-transition="zoom">
+    <section>
+        <h1>Визуализация данных</h1>
+        <h2>Gestalt-принципы</h2>
+    </section>
+    <section>
+        <ul>
+            <li class="fragment">Между создателем визуализации и зрителем нет известного соглашения по порядку просмотра (ср. печатные тексты)</li>
+            <li class="fragment">\(\implies\) Нужно делать визуализации так, чтобы направлять внимание зрителя, исходя из общих законов человеческого восприятия</li>
+            <li class="fragment">Gestalt-принципы — универсальные принципы цельности, «разумности» восприятия</li>
+            <li class="fragment">Зная Gestalt, можно убирать лишние элементы с изображений, облегчая восприятие и не боясь, что без «визуальных костылей» зритель что-то воспримет не так</li>
+        </ul>
+    </section>
+    <section>
+        Интересно знать:
+        <ul>
+            <li class="fragment"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3563050/">Классические эксперименты А.Я. Ярбуса по движениям глаз (eye tracking)…</a></li>
+            <li class="fragment"><a href="https://habr.com/ru/company/poborchy/blog/302648/">…и современное приложение eye tracking непосредственно к презентированию количественной информации</a></li>
+        </ul>
+    </section>
+    <section data-menu-title="Similarity, Proximity, Enclosure">
+        <div class="layout-fig-and-cap">
+            <figure>
+            <iframe src="https://emeeks.github.io/gestaltdataviz/section1.html"></iframe>
+                <figcaption><a href="https://emeeks.github.io/gestaltdataviz/section1.html">Eliah Meeks: Demo I</a></figcaption>
+            </figure>
+        </div>
+    </section>
+    <section data-menu-title="Common Fate, Parallelism, Connectedness">
+        <div class="layout-fig-and-cap">
+            <figure>
+                <iframe src="https://emeeks.github.io/gestaltdataviz/section2.html"></iframe>
+                <figcaption><a href="https://emeeks.github.io/gestaltdataviz/section2.html">Eliah Meeks: Demo II</a></figcaption>
+            </figure>
+        </div>
+    </section>
+    <section data-menu-title="Common Fate, Parallelism, Connectedness">
+        <div class="layout-fig-and-cap">
+            <figure>
+                <iframe src="https://emeeks.github.io/gestaltdataviz/section2.html"></iframe>
+                <figcaption><a href="https://emeeks.github.io/gestaltdataviz/section2.html">Eliah Meeks: Demo II</a></figcaption>
+            </figure>
+        </div>
+    </section>
+    <section data-menu-title="Proximity and Past Experience with Network Visualization">
+        <div class="layout-fig-and-cap">
+            <figure>
+                <iframe src="https://emeeks.github.io/gestaltdataviz/section3.html"></iframe>
+                <figcaption><a href="https://emeeks.github.io/gestaltdataviz/section3.html">Eliah Meeks: Demo III</a></figcaption>
+            </figure>
+        </div>
+    </section>
+    <section data-menu-title="Paegnanz, Closure, Figure/Ground, Continuation, Focal Points, Past Experiences">
+        <ul>
+            <li><a href="https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/">Article in Smashing Magazine</a></li>
+        </ul>
+    </section>
+    <section>
+        <ul>
+            <li>Gestalt — про то, как организуется <em>целостность</em> восприятия / группировка объектов</li>
+            <li>Противоположная необходимость — <em>выделить</em> объект на фоне остальных. Здесь разговор о преаттентивном зрении,
+                <a href="https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization">preattentive visual attributes</a></li>
+        </ul>
+    </section>
+</section>
+
+<section>
+    <section data-menu-title="Цвет">
+        <h2>Ссылки по теме “Цвет”:</h2>
+        <ul>
+            <li><a href="https://eagereyes.org/basics/rainbow-color-map">Пример того, как <strong>не надо</strong> работать с цветом</a> — что там не так?</li>
+            <li><a href="http://colorbrewer2.org">ColorBrewer</a> — базовые палитры на многие случаи жизни для трёх типов данных: sequential (напр., возраст), diverging (напр., температура по Цельсию), qualitative (напр., профессия)</li>
+            <li><a href="http://www.colorsystem.com/?page_id=551&lang=en">Зоопарк цветовых систем</a></li>
+            <li>Инструмент <a href="http://tristen.ca/hcl-picker/">ColorPicker</a> для выбора своей цветовой палитры в системе HCL (Hue — Chroma/Saturation — Luminance)</li>
+            <li>Палитры в идеале нужно делать подходящими для <a href="http://cadik.posvete.cz/color_to_gray_evaluation/">черно-белой печати</a> и <a href="https://www.iamcal.com/misc/colors/">людей с различными формами дальтонизма</a></li>
+            <li><a href="https://science.wikia.org/ru/wiki/%D0%9E%D0%BF%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F">Оппонентные теории цветового восприятия</a></li>
+        </ul>
+    </section>
+</section>
+
+<section>
+    <section data-menu-title="Задания">
+        <h2>Упражнения</h2>
+        <ul>
+            <li>Постройте свои цветовые палитры для различных видов данных с помощью инструмента <a href="http://tristen.ca/hcl-picker/">ColorPicker</a></li>
+            <li>Подумайте, какие Gestalt-принципы “сильнее”, какие “слабее”: если объекты на картинке одновременно могут быть сгруппированы по цвету на основе similarity, или по близости на основе proximity, то какая именно группировка приходит в голову первой? А для других комбинаций пар gestalt-принципов?</li>
+            <li>Какой (какие) gestalt-принципы эксплуатируются в инструменте на <a href="https://www.youtube.com/embed/Ju2hSThmPWA">этом</a> видео?</li>
+            <li>Найдите в интернете несколько графиков и подумайте, как, используя gestalt-принципы, можно было бы упростить графики и/или убрать из них “лишние пиксели”, чтобы увеличить пропагандируемый Эдвардом Тафти data-ink ratio.</li>
+        </ul>
+    </section>
+</section>
+
+
+</div></div>
+
+<script src="../reveal/js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        slideNumber: true,
+        width: "100%",
+        height: "100%",
+        margin: 0,
+        minScale: 1,
+        maxScale: 1,
+        history: true,
+        transition: 'slide',
+        controls: false,
+        menu: {
+            openSlideNumber: true,
+            openButton: false,
+            themes: false,
+            // themesPath: '../reveal/css/theme/',
+            transitions: true,
+            titleSelector: 'h1,h2,h3,h4,h5,h6,figcaption'
+        },
+        math: {
+            svgMathEnabled: true
+        },
+        inking: {
+            mathRenderer: 'MathJax',
+            mathShadow: 'false',
+            mathColor: 'rgb(0,255,0)',
+            mathDisplayStyle: true,
+            //inkingCanvasContent: predefinedSlideContent,
+            mathMacros: [['f1', '\\sum_t^u78'], ['f2', '\\left(\\int_{x=5}^8\\sin x\\mathrm{dx}\\right)']]
+        },
+        highlighting: {
+            editorInPlace: true
+        },
+        zooming: {
+            explicitZoomables: false,
+        },
+        dependencies: [
+            {
+                src: '../reveal-custom/plugins/menu/menu.js'
+            },
+            {
+                src: '../reveal-custom/plugins/external/external.js',
+                condition: function () {
+                    return !!document.querySelector('[data-external],[data-external-replace]');
+                }
+            },
+            {
+                src: '../reveal-custom/plugins/math-mod/math.js',
+                async: false
+            }
+        ]
+    });
+</script>
+</body>
+</html>

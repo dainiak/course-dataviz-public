@@ -101,6 +101,8 @@
   margin-bottom: 0;
   width: 100%;
   height: auto; }
+.reveal .slides section .layout-fig-and-cap figure iframe {
+  height: 80vh; }
 .reveal .slides section .layout-fig-and-cap figure figcaption {
   text-align: center;
   font-size: 4vmin; }
